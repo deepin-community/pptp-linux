@@ -1,0 +1,4 @@
+version=3
+opts="pgpsigurlmangle=s/$/.signature/" \
+    https://quozl.linux.org.au/pptp/ \
+    pptp-([0-9\.]+)\.tar\.(?:gz|xz)

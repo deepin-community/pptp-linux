@@ -1,0 +1,15 @@
+Subject: Correct documentation location in pptp(8)
+Author: Geoff Simmons <gsimmons@gsimmons.org>
+Bug-Debian: https://bugs.debian.org/569964
+
+--- a/pptp.8
++++ b/pptp.8
+@@ -230,7 +230,7 @@
+ .IR pppd (8)
+ .PP
+ Documentation in
+-.IR /usr/share/doc/pptp
++.IR /usr/share/doc/pptp-linux
+ .SH AUTHOR
+ This manual page was written by James Cameron
+ <james.cameron@hp.com> from text contributed by Thomas Quinot
