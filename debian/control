@@ -1,9 +1,10 @@
 Source: pptp-linux
 Maintainer: Christoph Biedl <debian.axhn@manchmal.in-ulm.de>
 Homepage: http://pptpclient.sourceforge.net/
-Standards-Version: 4.3.0
-Build-Depends: debhelper (>= 10~),
+Standards-Version: 4.7.0
+Build-Depends: debhelper-compat (= 13),
 Priority: optional
+Rules-Requires-Root: no
 Section: net
 
 Package: pptp-linux
