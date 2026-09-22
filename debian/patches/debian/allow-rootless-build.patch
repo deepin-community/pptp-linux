@@ -1,0 +1,21 @@
+Subject: Allow rootless build
+Author: Christoph Biedl <debian.axhn@manchmal.in-ulm.de>
+Date: 2024-12-08
+Forwarded: not-needed
+
+    For Debian builds, setting owner and permissions is not needed: The
+    build system will do that anyway.
+
+--- a/Makefile
++++ b/Makefile
+@@ -74,8 +74,8 @@
+ 
+ install:
+ 	mkdir -p $(BINDIR)
+-	install -o root -m 555 pptp $(BINDIR)
+-	install -o root -m 555 pptpsetup $(BINDIR)
++	install pptp $(BINDIR)
++	install pptpsetup $(BINDIR)
+ 	mkdir -p $(MANDIR)
+ 	install -m 644 pptp.8 $(MANDIR)
+ 	install -m 644 pptpsetup.8 $(MANDIR)

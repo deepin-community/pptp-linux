@@ -1,10 +1,11 @@
 Subject: Correct documentation location in pptp(8)
 Author: Geoff Simmons <gsimmons@gsimmons.org>
 Bug-Debian: https://bugs.debian.org/569964
+Forwarded: not-needed
 
 --- a/pptp.8
 +++ b/pptp.8
-@@ -230,7 +230,7 @@
+@@ -239,7 +239,7 @@
  .IR pppd (8)
  .PP
  Documentation in

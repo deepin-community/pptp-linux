@@ -1,3 +1,11 @@
+pptp-linux (1.10.0-2) unstable; urgency=medium
+
+  * Support rootless build. Closes: #1089417
+  * Cherry-pick some changes from upstream development.
+    Closes: #1082224
+
+ -- Christoph Biedl <debian.axhn@manchmal.in-ulm.de>  Sun, 08 Dec 2024 20:25:52 +0100
+
 pptp-linux (1.10.0-1) unstable; urgency=medium
 
   * New upstream version 1.10.0. Closes: #907185

@@ -1,1 +1,14 @@
-debian-569964-pptp-manpage.diff
+
+# Reverted upstream commits
+
+# Cherry-picked commits. Keep in upstream's chronological order
+cherry-pick/1558124752.1.10.0-2-g5269b57.fix-parallel-build-issue.patch
+cherry-pick/1575418932.1.10.0-4-gf449742.pptsetup-do-not-mess-up-the-password-when-reading-from-stdin.patch
+cherry-pick/1589514483.1.10.0-6-gff82566.add-missing-manual-page-options-and-fix-typo.patch
+cherry-pick/1599550704.1.10.0-7-g194620e.feature-terminate-from.patch
+
+# Patches that should go upstream
+
+# Debian-specific modifications
+debian/manpage-doc-location.patch
+debian/allow-rootless-build.patch
